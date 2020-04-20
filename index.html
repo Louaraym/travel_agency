@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Agency</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="http://fr.allfont.net/allfont.css?fonts=crete-round" rel="stylesheet" type="text/css" />
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-expand-md navbar-dark sticky-top">
+    <a class="navbar-brand" href="#main-image"> <h1>Travel Agency<span class="orange-dot">.</span></h1></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars fa-lg"></i>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="myNavbar">
+        <ul class="nav nav-pills navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#main-image">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#steps">Destinations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#possibilities">Circuits</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<section id="main-image">
+    <div class="container">
+        <h2>organiser votre <br> <span id="travel">voyage sur mesure</span></h2>
+        <a href="#" id="button-1">Par ici</a>
+    </div>
+</section>
+<section id="steps">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 step" id="step-1">
+                <h4>Planifier</h4>
+                <p>Confiez-nous vos rêves d'évasion : en famille ou entre amis, nous trouverons la formule qui comblera vos attentes.</p>
+            </div>
+            <div class="col-lg-4 step" id="step-2">
+                <h4>Organier</h4>
+                <p>Bénéficiez de l'expertise de nos spécialistes de chaque destination, ils vous accompagnent dans la réalisation de votre voyage.</p>
+            </div>
+            <div class="col-lg-4 step" id="step-3">
+                <h4>Voyager</h4>
+                <p>Nous nous chargeons d'assurer votre sécurité et de veiller à votre pleine sérénité tout au long de votre voyage.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="possibilities">
+    <div class="container">
+        <div class="row">
+            <div class="row col-lg-6">
+                <article style="background-image: url(images/article-image-1.jpg)">
+                    <div class="overlay">
+                        <h4>Partez en famille</h4>
+                        <p>
+                            <small> Offrez le meilleur à ceux que vous aimez et partagez des moments fabuleux ! </small>
+                        </p>
+                        <a href="#" class="button-2">Plus d'infos</a>
+                    </div>
+                </article>
+            </div>
+            <div class="row col-lg-6" >
+                <article style="background-image: url(images/article-image-2.jpg)">
+                    <div class="overlay">
+                        <h4>Envie de s'evader</h4>
+                        <p>
+                            <small>Parfois un peu d'évasion serait le bienvenue et ferait le plus grand bien !</small>
+                        </p>
+                        <a href="#" class="button-2">Plus d'infos</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="container">
+        <h3>Contactez nous</h3>
+        <p>
+            Chez Travel Agency nous savons que voyager est une aventure humaine mais également un engagement financier
+            important pour vous. C'est pourquoi nous mettons un point d'honneur à prendre en compte chacune de vos
+            attentes pour vous aider dans la préparation de votre séjour, circuit ou voyage sur mesure.
+        </p>
+        <form class="form-inline">
+            <label class="sr-only" for="name">Nom</label>
+            <input type="text" class="form-control mb-2 mr-sm-2" id="name" placeholder="Votre nom">
+
+            <label class="sr-only" for="email">Username</label>
+            <div class="input-group mb-2 mr-sm-2">
+                <input type="email" class="form-control" id="email" placeholder="Votre email">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2 button-3">Envoyer</button>
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <h1>Travel Agency<span class="orange-dot">.</span></h1>
+        <div class="copyright">
+            Copyright ©2020 Tous droits réservés.
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"> </script>
+<script src="js/script.js"></script>
+</body>
+</html>
